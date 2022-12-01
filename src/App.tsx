@@ -16,22 +16,27 @@ function App() {
       >
         <img width="290" src={astronauta} alt="astronauta" />
       </div>
-      <div
+      
+
+        <div
         style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          flexDirection: 'column',
           width: '100%',
-          marginTop: '30px',
+          flexDirection: 'column',
+          marginTop: '40px',
         }}
-      >
+        >
+
+   
         <Inputs type="text" placeholder="Name" />
 
         <Inputs type="email" placeholder="email" />
 
         <Inputs type="password" placeholder="Password" />
-      </div>
+        </div>
+        
 
       <Buttons>Botao</Buttons>
     </ContainerApp>
