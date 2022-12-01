@@ -13,7 +13,7 @@ function App() {
         <img width="290" src={astronauta} alt="astronauta" />
         <div style={{
           display: 'flex', marginLeft: '180px',
-          justifyContent: 'center', width: '300px',
+          justifyContent: 'center', width: '400px',
           marginTop: '10px'
         }}>
           
@@ -21,13 +21,13 @@ function App() {
           width: '115px',
           height: '39px',
           color: 'white', background: '#9999ff',
-          marginRight: '20px',
+          marginRight: '15px',
           marginTop: '10px',
           fontSize: '14px'
         }}>Login</button>
 
            <button style={{
-          width: '95px',
+          width: '115px',
           height: '39px',
           color: '#9999ff', background: 'white',
           marginRight: '210px',
