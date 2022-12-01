@@ -54,12 +54,12 @@ function App() {
           justifyContent: 'center',
           marginBottom: '18px',
           marginTop: '15px',
-          // width: '300px'
+          // width: '5rem'
 
         }}>
 
           <input  style={{ width: '50px', height: '18px', marginRight: '3px' }}
-            type="checkbox" placeholder="Check" /> 
+            type="checkbox" placeholder="Checkbox" /> 
         <span>
         I Agree to the contracts aready
         </span>
@@ -69,9 +69,9 @@ function App() {
 
       <Buttons>Botao</Buttons>
 
-      <div style={{
+      {/* <div style={{
         display: 'flex',
-        width: '100vw',
+        width: '70vw',
         alignItems: 'center',
         justifyContent: 'center',
           marginTop: '35px'
@@ -117,7 +117,7 @@ function App() {
         
       </div>
 
-      </div>
+      </div> */}
 
     </ContainerApp>
   )
