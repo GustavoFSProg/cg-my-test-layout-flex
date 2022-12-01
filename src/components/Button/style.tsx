@@ -10,7 +10,7 @@ export const ButtonContainer = styled.div`
 `
 
 export const Button = styled.button`
-   width:  100%;
+   width:  83%;
    max-width: 520px;
    height: 41px;
  margin-bottom: 20px;
