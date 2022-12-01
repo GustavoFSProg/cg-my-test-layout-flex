@@ -6,6 +6,9 @@ import astronauta from './assets/astronauta.jpeg'
 function App() {
   return (
     <ContainerApp>
+      <hr style={{width: '100vw',
+border: '7px solid darkgreen', margin: '0'
+}} ></hr>
       <div
         style={{
           display: 'flex',
