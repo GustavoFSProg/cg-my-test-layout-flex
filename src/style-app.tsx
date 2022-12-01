@@ -18,7 +18,18 @@ export const LineContainer = styled.div`
 export const ImageContainer = styled.div`
   display: flex;
   width: 100%;
+  display: flex;
+  justify-content: space-between ;
   position: relative;
+
+  @media screen and (max-width: 800px){
+    flex-direction: column ;
+  justify-content: center ;
+  align-items: center ;
+  display: flex;
+
+
+  }
 `
 
 export const InputsContainer = styled.div`

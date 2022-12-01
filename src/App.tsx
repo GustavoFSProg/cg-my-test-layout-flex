@@ -11,6 +11,29 @@ function App() {
       </LineContainer>
       <ImageContainer>
         <img width="290" src={astronauta} alt="astronauta" />
+        <div style={{display: 'flex', marginLeft: '180px',  justifyContent: 'center', width: '300px'}}>
+          
+        <button style={{
+          width: '115px',
+          height: '39px',
+          color: 'white', background: '#9999ff',
+          marginRight: '20px',
+          marginTop: '10px',
+          fontSize: '14px'
+        }}>Login</button>
+
+           <button style={{
+          width: '95px',
+          height: '39px',
+          color: '#9999ff', background: 'white',
+          marginRight: '210px',
+          marginTop: '10px',
+            fontSize: '14px',
+          border: '1px solid #9999ff'
+          }}>Register</button>
+      </div>
+          
+
       </ImageContainer>
 
       <InputsContainer>
@@ -22,6 +45,57 @@ function App() {
       </InputsContainer>
 
       <Buttons>Botao</Buttons>
+
+      <div style={{
+        display: 'flex',
+        width: '100vw',
+        alignItems: 'center',
+        justifyContent: 'center',
+          marginTop: '35px'
+
+      }}>
+          <div style={{
+        display: 'flex',
+        width: '70%',
+        alignItems: 'center',
+        justifyContent: 'center'
+        }}>
+          
+        <hr style={{
+              width: '40%',
+          border: '1px solid #b3b3b3',
+          // marginLeft: '820px',
+            marginTop: '20px',
+          
+
+        }} />
+        <span style={{
+          // marginLeft: '-720px',
+            marginTop: '10px',
+            color: '#b3b3b3',
+            fontSize: '15px',
+            marginLeft: '6px',
+            marginRight: '6px'
+
+          
+
+        }}>
+          OU
+        </span>
+
+         <hr style={{
+              width: '40%',
+            border: '1px solid #b3b3b3',
+          color: '#bfbfbf',
+          // marginLeft: '-820px',
+          marginTop: '20px'
+
+        }} />
+        
+      </div>
+
+      </div>
+
     </ContainerApp>
   )
 }
