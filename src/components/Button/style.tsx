@@ -11,13 +11,22 @@ export const ButtonContainer = styled.div`
 
 export const Button = styled.button`
    width:  84%;
-   max-width: 520px;
+   max-width: 540px;
    height: 41px;
- margin-bottom: 20px;
+ margin-top: 5px;
  /* border-radius: 7px; */
  padding-left: 10px ;
  font-size:  15px;
  background: lightblue ;
  color: blue;
+ cursor: pointer;
+ transition: ease 0.7s ;
+
+   :hover {
+    background: blue ;
+    color: white;
+   }
+          /* border: 2px solid red */
+
 
 `
