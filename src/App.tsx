@@ -2,6 +2,7 @@ import Buttons from './components/Button'
 import Inputs from './components/Input'
 import { ContainerApp, HR, InputsContainer, ImageContainer, LineContainer } from './style-app'
 import astronauta from './assets/astronauta.jpeg'
+import { Input } from './components/Input/style'
 
 function App() {
   return (
@@ -46,6 +47,24 @@ function App() {
         <Inputs type="email" placeholder="email" />
 
         <Inputs type="password" placeholder="Password" />
+
+        <div style={{
+          display: 'flex', flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginBottom: '18px',
+          marginTop: '15px',
+          // width: '300px'
+
+        }}>
+
+          <input  style={{ width: '50px', height: '18px', marginRight: '3px' }}
+            type="checkbox" placeholder="Check" /> 
+        <span>
+        I Agree to the contracts aready
+        </span>
+        </div>
+
       </InputsContainer>
 
       <Buttons>Botao</Buttons>
