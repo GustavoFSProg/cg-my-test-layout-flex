@@ -11,7 +11,11 @@ function App() {
       </LineContainer>
       <ImageContainer>
         <img width="290" src={astronauta} alt="astronauta" />
-        <div style={{display: 'flex', marginLeft: '180px',  justifyContent: 'center', width: '300px'}}>
+        <div style={{
+          display: 'flex', marginLeft: '180px',
+          justifyContent: 'center', width: '300px',
+          marginTop: '10px'
+        }}>
           
         <button style={{
           width: '115px',
