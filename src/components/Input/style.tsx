@@ -11,13 +11,14 @@ export const InputContainer = styled.div`
 
 export const Input = styled.input`
    width:  80%;
-   max-width: 520px;
+   max-width: 450px;
    height: 35px;
  margin-bottom: 20px;
  border-radius: 7px;
  padding-left: 10px ;
  font-size:  15px;
  background: lightgray ;
+
 
 
 `
